@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chnage_pass"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/rectangle_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/rectangle_1"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/passwordforget"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="8dp"
+        android:gravity="top"
+        android:text="@string/forget_password"
+        android:textAlignment="center"
+        android:textAppearance="@style/AppTheme"
+        android:textSize="15sp" />
+
+    <View
+        android:id="@+id/line_22"
+        android:layout_width="304dp"
+        android:layout_height="0.2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="243dp"
+        android:background="@drawable/line_22"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/old_passwor"
+        android:layout_width="108dp"
+        android:hint="@string/old_passwor"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="211dp"
+        android:inputType="textPassword"
+        android:gravity="top"
+
+        android:textAppearance="@style/old_passwor" />
+
+    <View
+        android:id="@+id/line_24"
+        android:layout_width="304dp"
+        android:layout_height="0.2dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/line_24"
+        />
+
+    <EditText
+        android:id="@+id/new_passwor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:inputType="textPassword"
+        android:hint="@string/new_passwor"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="267dp"
+        android:gravity="top"
+        android:textAppearance="@style/new_passwor" />
+
+    <Button
+        android:id="@+id/rectangle_4"
+        android:layout_width="304dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="360dp"
+        android:text="@string/forget_password"
+        android:background="@drawable/rectangle_4"
+        android:textAppearance="@style/change_pass"/>
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:gravity="top"
+        android:hint="otp"
+        android:inputType="number"
+        android:textAppearance="@style/new_passwor" />
+
+
+
+</RelativeLayout>

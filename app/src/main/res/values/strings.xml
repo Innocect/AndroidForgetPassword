@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ForgetPass</string>
+    <string name="todo">TODO</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="old_passwor">
+New Password
+</string>
+    <string name="new_passwor">
+Confirm Password
+</string>
+    <string name="change_pass">
+Reset Password
+</string>
+    <string name="submit">submit</string>
+</resources>
